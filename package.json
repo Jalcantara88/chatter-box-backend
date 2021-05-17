@@ -1,7 +1,6 @@
 {
   "name": "chatter-box-backend",
   "version": "1.0.0",
-  "private": true,
   "description": "backend socket io server for chatter-box app",
   "main": "index.js",
   "scripts": {
