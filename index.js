@@ -5,7 +5,15 @@ const http = require('http');
 const { Server } = require("socket.io");
 
 
-app.use(cors());
+app.use(cors(
+    origin = "*"
+));
+
+app.use(function(req, res, next) {
+    res.header("access-control-allow-origin", '*');
+    res.header("Access-Control-Allow-Credentials", true);
+})
+
 const server = http.createServer(app);
 const io = new Server(server, {
         cors: {
