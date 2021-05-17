@@ -1,0 +1,15 @@
+{
+  "name": "chatter-box-backend",
+  "version": "1.0.0",
+  "description": "backend socket io server for chatter-box app",
+  "main": "index.js",
+  "engines": {
+    "node": "12.17.x"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "julio Alcantara",
+  "license": "ISC"
+}
