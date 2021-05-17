@@ -16,5 +16,4 @@
     "http": "0.0.1-security",
     "socket.io": "^4.1.1"
   }
-
 }
