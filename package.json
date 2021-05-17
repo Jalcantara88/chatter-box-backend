@@ -1,14 +1,24 @@
 {
   "name": "chatter-box-backend",
   "version": "1.0.0",
+  "private": true,
   "description": "backend socket io server for chatter-box app",
   "main": "index.js",
-
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
     "dev": "node dev"
   },
   "author": "julio Alcantara",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "http": "0.0.1-security",
+    "socket.io": "^4.1.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Jalcantara88/chatter-box-backend.git"
+  }
 }
